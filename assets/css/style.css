@@ -21,8 +21,8 @@ body {
 }
 
 .header h1 .seo {
-    color: #f6f8f4;
-    margin-right: 20px;
+    color: #dde6d4;
+    
 }
 
 .header nav {
@@ -85,6 +85,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    position: absolute; 
+    top: 920px; 
+    right: 10px;
+    
 }
 
 .benefit-lead {
@@ -115,6 +119,7 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    margin-inline: top;
 }
 
 .benefit-lead img {
