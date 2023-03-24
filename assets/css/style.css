@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Added header and title */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,6 +26,7 @@ body {
     
 }
 
+/* Changed to semantic form by rewriting as nav instead of div */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,10 +35,12 @@ body {
     font-size: 20px;
 }
 
+/* Changed div to semantic form */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Changed div to semantic form */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -51,6 +55,7 @@ body {
     font-size: 16px;
 }
 
+/* Changed from class to id */
 #hero {
     height: 800px;
     width: 100%;
@@ -70,6 +75,7 @@ body {
     margin-left: 25px;
 }
 
+/* Condensed work together into .content */
 .content {
     width: 75%;
     display: inline-block;
@@ -79,7 +85,7 @@ body {
 .content img {
     max-height: 200px;
 }
-
+  /* Condensed section together and added position of absolute */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -112,12 +118,14 @@ body {
     margin-inline: top;
 }
 
+/* Condensed together h3 into benefit-lead */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Condensed together into .reform */
 .reform {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,7 +135,7 @@ body {
     color: #ffffff;
 }
 
-
+/* Condensed together into .reform img */
 .reform img {
     max-height: 200px;
 }
@@ -138,7 +146,7 @@ body {
     font-size: 36px;
 }
 
-
+/* Added footer to end of page */
 #footer {
     padding: 30px;
     clear: both;
